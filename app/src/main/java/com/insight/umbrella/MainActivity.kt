@@ -1,4 +1,4 @@
-package com.insight.umbrella
+package com.sydneyq.umbrella
 
 import android.os.Bundle
 import android.support.design.widget.Snackbar
