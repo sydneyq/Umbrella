@@ -22,9 +22,37 @@
             android:textSize="36sp" android:textColor="@android:color/black" android:textStyle="bold"/>
     <Button
             android:text="Track Your Mood"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" tools:layout_editor_absoluteY="115dp"
+            android:layout_width="153dp"
+            android:layout_height="249dp" tools:layout_editor_absoluteY="115dp"
             tools:layout_editor_absoluteX="34dp" android:id="@+id/button-mood"
+            style="@style/Widget.AppCompat.Button.Colored" android:typeface="normal" android:textSize="18sp"/>
+
+    <Button
+            android:text="Listen to Audios"
+            android:layout_width="156dp"
+            android:layout_height="300dp" tools:layout_editor_absoluteY="115dp"
+            tools:layout_editor_absoluteX="215dp" android:id="@+id/button-audios"
+            style="@style/Widget.AppCompat.Button.Colored" android:typeface="normal" android:textSize="18sp"/>
+
+    <Button
+            android:text="Bookmarked Audio"
+            android:layout_width="153dp"
+            android:layout_height="117dp" tools:layout_editor_absoluteY="443dp"
+            tools:layout_editor_absoluteX="215dp" android:id="@+id/button-bookmarked"
+            style="@style/Widget.AppCompat.Button.Colored" android:typeface="normal" android:textSize="18sp"/>
+
+    <Button
+            android:text="SOS"
+            android:layout_width="156dp"
+            android:layout_height="120dp" tools:layout_editor_absoluteY="458dp"
+            tools:layout_editor_absoluteX="34dp" android:id="@+id/button-sos"
+            style="@style/Widget.AppCompat.Button.Colored" android:typeface="normal" android:textSize="18sp"/>
+
+    <Button
+            android:text="Settings"
+            android:layout_width="156dp"
+            android:layout_height="77dp" tools:layout_editor_absoluteY="603dp"
+            tools:layout_editor_absoluteX="34dp" android:id="@+id/button-settings"
             style="@style/Widget.AppCompat.Button.Colored" android:typeface="normal" android:textSize="18sp"/>
 
 
